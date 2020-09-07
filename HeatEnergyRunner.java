@@ -26,13 +26,8 @@ finalPhase = "solid";
 if(finalTemp > 100)
 finalPhase = "vapor";
 System.out.println("Mass: " + mass + "g");
-System.out.println("Initial tempeature: " + initialTemp + "C " +
-
-initialPhase);
-
-System.out.println("Final tempeature: " + finalTemp + "C " +
-
-finalPhase);
+System.out.println("Initial tempeature: " + initialTemp + "C " + initialPhase);
+System.out.println("Final tempeature: " + finalTemp + "C " + finalPhase);
 
 boolean endothermic = false;
 if(finalTemp > initialTemp)
