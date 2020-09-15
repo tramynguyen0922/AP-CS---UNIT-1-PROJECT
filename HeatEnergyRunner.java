@@ -5,7 +5,7 @@ Scanner reader = new Scanner(System.in);
 
 System.out.println("Enter the mass of the water, in grams");
 double mass = reader.nextDouble();
-System.out.println("Enter the intial temperature of the water, in Celsius");
+System.out.println("Enter the initial temperature of the water, in Celsius");
 
 double initialTemp = reader.nextDouble();
 if(initialTemp < -273.14)
